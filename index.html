@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio — AI, machine learning, immersive technologies developer and instructor."
+    />
+    <title>Portfolio — AI · ML · Immersive Tech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect fill='%230a0e14' width='32' height='32' rx='6'/><text x='16' y='22' text-anchor='middle' fill='%233ee8b5' font-size='16' font-family='monospace'>◇</text></svg>" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header" id="site-header">
+      <div class="container header-inner">
+        <a href="#" class="logo" aria-label="Home">
+          <span class="logo-mark">◇</span>
+          <span class="logo-text">Studio</span>
+        </a>
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <ul class="nav-list">
+            <li><a href="#development">Development</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#teaching">Teaching</a></li>
+            <li><a href="#stack">Stack</a></li>
+            <li>
+              <a
+                href="assets/cv.pdf"
+                class="nav-cv"
+                download
+                >CV</a
+              >
+            </li>
+            <li><a href="#contact" class="nav-cta">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="container hero-inner">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow">Software developer · Instructor · Immersive &amp; intelligent systems</p>
+              <h1 id="hero-title" class="hero-title">
+                I write the <em>code</em> that ships AI, ML, and spatial products.
+              </h1>
+              <p class="hero-lead">
+                End-to-end development: APIs, training pipelines, inference services, Unity /
+                WebXR clients, and the glue in between—versioned, tested, and observable. Teaching
+                is how I scale that craft to teams and classrooms.
+              </p>
+              <div class="hero-actions">
+                <a href="#development" class="btn btn-primary">How I build</a>
+                <a href="#work" class="btn btn-ghost">Selected work</a>
+                <a href="assets/cv.pdf" class="btn btn-ghost" download>Download CV</a>
+                <a href="#contact" class="btn btn-accent">Contact</a>
+              </div>
+            </div>
+            <div class="hero-profile">
+              <figure class="profile-frame">
+                <img
+                  class="profile-photo"
+                  src="assets/profile.svg"
+                  width="320"
+                  height="320"
+                  alt="Profile photo (placeholder—replace with your image)"
+                />
+                <figcaption class="profile-caption">Replace <code>assets/profile.svg</code> with your photo.</figcaption>
+              </figure>
+            </div>
+          </div>
+          <dl class="hero-stats">
+            <div>
+              <dt>Development</dt>
+              <dd>Python · TypeScript · APIs · CI/CD · Docker</dd>
+            </div>
+            <div>
+              <dt>ML &amp; XR</dt>
+              <dd>PyTorch · GenAI · Unity · WebXR · Three.js</dd>
+            </div>
+            <div>
+              <dt>Teaching</dt>
+              <dd>Bootcamps · University · Corporate workshops</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="clients-strip" aria-label="Organizations (sample names for layout)">
+        <div class="container">
+          <p class="clients-strip-label">Sample engagements — replace with real logos &amp; names</p>
+          <ul class="clients-strip-list">
+            <li>Quant Harbor Systems</li>
+            <li>Meridian XR Labs</li>
+            <li>Northbridge Analytics</li>
+            <li>Volt Interactive</li>
+            <li>Cognistream Industries</li>
+            <li>Atlas Immersive Media</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="about" class="section about" aria-labelledby="about-title">
+        <div class="container narrow">
+          <h2 id="about-title" class="section-title">About</h2>
+          <p class="prose">
+            Most of my week is <strong>hands-on development</strong>: designing services, reviewing
+            PRs, profiling hot paths, and pairing with engineers on integration. I also work at the
+            intersection of <strong>machine learning</strong> and <strong>immersive media</strong>—
+            training and deploying models, then shipping the clients and tools that make them
+            usable. Teaching is the other half: turning that experience into curricula teams can run
+            without me.
+          </p>
+        </div>
+      </section>
+
+      <section id="development" class="section development" aria-labelledby="development-title">
+        <div class="container">
+          <div class="section-head">
+            <h2 id="development-title" class="section-title">Development practice</h2>
+            <p class="section-sub">
+              What “full stack” means here: from experiment branch to production rollout—not only
+              notebooks and demos.
+            </p>
+          </div>
+          <ul class="dev-grid">
+            <li class="dev-card">
+              <h3 class="dev-card-title">Software &amp; APIs</h3>
+              <p class="dev-card-desc">
+                REST and streaming APIs, typed SDKs, auth boundaries, and clear error contracts.
+                Feature flags and backward-compatible versioning so mobile and XR clients can ship
+                safely.
+              </p>
+            </li>
+            <li class="dev-card">
+              <h3 class="dev-card-title">ML in production</h3>
+              <p class="dev-card-desc">
+                Training jobs, artifact registries, batch and online inference, latency budgets,
+                drift checks, and dashboards operators actually open when something breaks.
+              </p>
+            </li>
+            <li class="dev-card">
+              <h3 class="dev-card-title">Immersive clients</h3>
+              <p class="dev-card-desc">
+                Unity and WebXR builds, performance on-device, interaction feel, and telemetry
+                hooks—so design and data teams get signal from real sessions.
+              </p>
+            </li>
+            <li class="dev-card">
+              <h3 class="dev-card-title">Quality &amp; delivery</h3>
+              <p class="dev-card-desc">
+                Unit and integration tests where they matter, CI pipelines, containerized deploys,
+                structured logging, and runbooks—so the team can iterate without fear.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="work" class="section work" aria-labelledby="work-title">
+        <div class="container">
+          <div class="section-head">
+            <h2 id="work-title" class="section-title">Selected work</h2>
+            <p class="section-sub">Replace with your real projects and links.</p>
+          </div>
+          <ul class="project-grid">
+            <li>
+              <article class="project-card">
+                <span class="project-tag">ML · Production</span>
+                <h3 class="project-name">Real-time inference pipeline</h3>
+                <p class="project-desc">
+                  Low-latency serving, monitoring, and rollback for a domain-specific model used
+                  by thousands of daily users.
+                </p>
+                <a class="project-link" href="#" aria-label="Project one (add your link)">View case study →</a>
+              </article>
+            </li>
+            <li>
+              <article class="project-card">
+                <span class="project-tag">XR · Interaction</span>
+                <h3 class="project-name">Spatial training prototype</h3>
+                <p class="project-desc">
+                  Hand-tracked VR module for procedural training with analytics on completion and
+                  error patterns.
+                </p>
+                <a class="project-link" href="#" aria-label="Project two (add your link)">View case study →</a>
+              </article>
+            </li>
+            <li>
+              <article class="project-card">
+                <span class="project-tag">GenAI · Product</span>
+                <h3 class="project-name">Grounded assistant</h3>
+                <p class="project-desc">
+                  RAG-backed assistant with citation UI, eval harness, and human-in-the-loop review
+                  for high-stakes answers.
+                </p>
+                <a class="project-link" href="#" aria-label="Project three (add your link)">View case study →</a>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="clients" class="section clients" aria-labelledby="clients-title">
+        <div class="container">
+          <div class="section-head">
+            <h2 id="clients-title" class="section-title">Clients &amp; companies</h2>
+            <p class="section-sub">
+              Fictional names for layout—swap for real organizations, roles, and dates before you
+              publish.
+            </p>
+          </div>
+          <ul class="clients-grid">
+            <li>
+              <article class="client-card">
+                <span class="client-type">Enterprise · B2B SaaS</span>
+                <h3 class="client-name">Quant Harbor Systems</h3>
+                <p class="client-role">Lead ML engineer — inference platform &amp; monitoring</p>
+                <p class="client-years">2023 — present</p>
+              </article>
+            </li>
+            <li>
+              <article class="client-card">
+                <span class="client-type">XR studio</span>
+                <h3 class="client-name">Meridian XR Labs</h3>
+                <p class="client-role">Senior developer — Unity training modules &amp; analytics SDK</p>
+                <p class="client-years">2022 — 2024</p>
+              </article>
+            </li>
+            <li>
+              <article class="client-card">
+                <span class="client-type">Fortune 500 · internal tools</span>
+                <h3 class="client-name">Northbridge Analytics</h3>
+                <p class="client-role">Contract — RAG assistant, eval harness, red-team loop</p>
+                <p class="client-years">2024</p>
+              </article>
+            </li>
+            <li>
+              <article class="client-card">
+                <span class="client-type">Gaming · live ops</span>
+                <h3 class="client-name">Volt Interactive</h3>
+                <p class="client-role">Immersive prototypes — WebXR + backend feature flags</p>
+                <p class="client-years">2021 — 2023</p>
+              </article>
+            </li>
+            <li>
+              <article class="client-card">
+                <span class="client-type">Series B · computer vision</span>
+                <h3 class="client-name">Cognistream Industries</h3>
+                <p class="client-role">Tech lead — CV pipeline, edge deployment, on-call playbooks</p>
+                <p class="client-years">2020 — 2022</p>
+              </article>
+            </li>
+            <li>
+              <article class="client-card">
+                <span class="client-type">Media · location-based</span>
+                <h3 class="client-name">Atlas Immersive Media</h3>
+                <p class="client-role">Full-stack — spatial audio tooling &amp; content pipeline</p>
+                <p class="client-years">2019 — 2021</p>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="teaching" class="section teaching" aria-labelledby="teaching-title">
+        <div class="container">
+          <div class="section-head">
+            <h2 id="teaching-title" class="section-title">Teaching &amp; speaking</h2>
+            <p class="section-sub">Curriculum design, live cohorts, and executive deep-dives.</p>
+          </div>
+          <div class="teaching-grid">
+            <div class="teaching-card">
+              <h3>Courses</h3>
+              <ul>
+                <li>ML fundamentals → deployment (Python, cloud, MLOps basics)</li>
+                <li>Deep learning for vision and language</li>
+                <li>Introduction to immersive development (Unity / WebXR)</li>
+              </ul>
+            </div>
+            <div class="teaching-card">
+              <h3>Formats</h3>
+              <ul>
+                <li>Multi-week bootcamps with capstone reviews</li>
+                <li>Single-day workshops for product and engineering teams</li>
+                <li>Conference talks on responsible AI and XR UX</li>
+              </ul>
+            </div>
+            <div class="teaching-card highlight">
+              <h3>Philosophy</h3>
+              <p>
+                I optimize for <strong>mental models</strong>: learners should leave able to
+                debug, measure, and explain—not just run notebooks.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="stack" class="section stack" aria-labelledby="stack-title">
+        <div class="container">
+          <h2 id="stack-title" class="section-title">Tools &amp; stack</h2>
+          <ul class="stack-list" aria-label="Technologies">
+            <li>Python · TypeScript</li>
+            <li>FastAPI · gRPC · REST</li>
+            <li>PyTorch · scikit-learn · Hugging Face</li>
+            <li>LLM APIs · RAG · eval tooling</li>
+            <li>Unity · WebXR · Three.js</li>
+            <li>Docker · GitHub Actions · observability</li>
+            <li>Tests · code review · technical writing</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact" aria-labelledby="contact-title">
+        <div class="container contact-inner">
+          <h2 id="contact-title" class="section-title">Let’s collaborate</h2>
+          <p class="contact-lead">
+            Hiring, guest lectures, or immersive / ML consulting—say hello.
+          </p>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:you@example.com">Contact</a>
+            <a class="btn btn-ghost" href="assets/cv.pdf" download>Download CV</a>
+            <a class="btn btn-ghost" href="https://github.com/" rel="noopener noreferrer">GitHub</a>
+            <a class="btn btn-ghost" href="https://linkedin.com/" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+          <p class="contact-note">
+            Add your résumé as <code>assets/cv.pdf</code>. Edit <code>mailto:</code> and social URLs
+            in <code>index.html</code> before publishing.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> — Built for GitHub Pages. Customize freely.</p>
+        <a href="#main" class="footer-top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
