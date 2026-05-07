@@ -297,7 +297,7 @@ body {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: var(--radius);
+  border-radius: 50%;
   border: 1px solid var(--border);
   box-shadow:
     0 0 0 1px rgba(62, 232, 181, 0.12),
