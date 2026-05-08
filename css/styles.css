@@ -676,6 +676,7 @@ body {
   color: var(--text-muted);
   flex-grow: 1;
   font-size: 0.9375rem;
+  text-align: justify;
 }
 
 .project-link {
